@@ -1,19 +1,19 @@
 class Strata < Formula
   desc "One binary: CLI, daemon and MCP server"
-  homepage "https://github.com/C01-Dev/strata"
-  version "0.1.1"
+  homepage "https://github.com/C01-Dev/Strata"
+  version "0.1.2"
   if OS.mac? && Hardware::CPU.arm?
-    url "https://github.com/C01-Dev/strata/releases/download/v0.1.1/strata-aarch64-apple-darwin.tar.xz"
-    sha256 "26c00cd59e6ea3cad9569618a1c4d85c237d79a799becb668107ee90f095d778"
+    url "https://github.com/C01-Dev/Strata/releases/download/v0.1.2/strata-aarch64-apple-darwin.tar.xz"
+    sha256 "d18655a5b154604cddaabd7dc335b4672a2f715b34181effcd82e8eaeb3adee7"
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/C01-Dev/strata/releases/download/v0.1.1/strata-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "09c90f273d3014ee384539253ec863842fbb0004f47638423e108a161f251e15"
+      url "https://github.com/C01-Dev/Strata/releases/download/v0.1.2/strata-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "2d6ebaadf568dc7821c4f761eeab244a813abbf49a62e77abc3a5f7b4686b8cb"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/C01-Dev/strata/releases/download/v0.1.1/strata-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "cbe8233cbcf2dbf2a63f7f1721b314ea1f97c5dda47f210b40916c88c810b173"
+      url "https://github.com/C01-Dev/Strata/releases/download/v0.1.2/strata-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "2bb9f9ee0b14dfa34e98e88a36cd1900a448ba6a1ac44fcca9fd6ae43de7c1cf"
     end
   end
   license any_of: ["MIT", "Apache-2.0"]
