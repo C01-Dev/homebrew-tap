@@ -1,6 +1,6 @@
 cask "strata-menubar" do
-  version "0.1.3"
-  sha256 "7bf71a34a162f653949c56667a2187b019417faef389fd587a9735f93bf44aab"
+  version "0.1.4"
+  sha256 "fa7246be1780a1486d9217d2bf70e6ec649727fbd6f85c23858c6228c57ace75"
 
   url "https://github.com/C01-Dev/Strata/releases/download/v#{version}/Strata-macOS.zip"
   name "Strata"
